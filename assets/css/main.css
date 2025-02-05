@@ -810,8 +810,10 @@ section {
 }
 
 .hero .carousel-item img{
+/*
 	width: 100%;
 	height: auto;
+*/
 	object-position: 350px 0;
 }
 
@@ -834,9 +836,11 @@ section {
 	align-items: center;
 }
 
+/*
 .hero .info .container {
   margin-top: 100px !important;
 }
+*/
 
 .hero .info h2 {
   font-family: var(--font-secondary);
