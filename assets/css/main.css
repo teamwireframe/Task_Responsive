@@ -113,7 +113,7 @@ section {
 }
 
 .section-header h2 {
-  font-size: 80px;
+/*  font-size: 80px;*/
   font-weight: 800;
 	line-height: 100%;
   position: relative;
@@ -235,6 +235,7 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	clip-path: polygon(45% 0, 100% 0, 100% 100%, 53% 100%);
 }
 
 .breadcrumbs .container{
@@ -462,16 +463,16 @@ section {
 .headerinner {
   z-index: 997;
   position: absolute;
-/*  padding: 30px 0;*/
-	padding: 60px 0 32px 0;
+  /*  padding: 30px 0;*/
+  padding: 60px 0 32px 0;
   top: 0;
   left: 0;
   right: 0;
-	background-color: rgba(255,255,255,1);
-	height: 350px;
-	clip-path: polygon(0 0, 45% 0, 53% 100%, 0% 100%);
-	display: flex;
-	align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0);
+  height: 350px;
+/*  clip-path: polygon(0 0, 45% 0, 53% 100%, 0% 100%);*/
+  display: flex;
+  align-items: flex-start;
 }
 
 .headerinner .logo img {
@@ -843,7 +844,7 @@ section {
 	margin: 30px 0 20px 0;
 	padding-left: 90px;
 /*  padding: 30px 0 20px 0;*/
-  font-size: 70px;
+/*  font-size: 70px;*/
   font-weight: 700;
   position: relative;
 }
@@ -881,7 +882,7 @@ section {
 
 .hero .info p {
   color: var(--color-secondary);
-  font-size: 18px;
+/*  font-size: 1rem;*/
 }
 
 .hero .info .btn-get-started {
@@ -962,17 +963,6 @@ section {
 	border: 2px solid var(--color-primary);
 	background-color: transparent;
 }
-/*
-@media (min-width: 640px) {
-  .hero .carousel-control-prev {
-    padding-left: 15px;
-  }
-	.hero .carousel-control-next {
-    padding-right: 15px;
-  }
-}
-*/
-
 
 
 /* -------------------------------------- */
