@@ -1974,7 +1974,7 @@ section.features{
 }
 
 .about h3 {
-  font-size: 60px;
+/*  font-size: 60px;*/
   font-weight: 800;
   margin-bottom: 20px;
   color: var(--color-default);
@@ -1997,7 +1997,7 @@ section.features{
 .about .our-vision p,
 .about dl{
 	font-family: var(--font-primary);
-	font-size: 24px;
+/*	font-size: 24px;*/
 	color:#8D8D8D;
 	font-weight: 300;
 }
